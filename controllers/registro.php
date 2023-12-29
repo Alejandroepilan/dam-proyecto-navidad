@@ -27,6 +27,7 @@
 </html>
 
 <?php
+require_once('../config/db_conn.php');
 
 $conexion = conectarDB();
 
