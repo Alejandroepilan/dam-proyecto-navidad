@@ -4,16 +4,16 @@ $url = $_SERVER['REQUEST_URI'];
 
 switch ($url) {
   case '/':
-    include '../controllers/inicio.php';
+    include '../views/inicio.php';
     break;
   case '/register':
-    include '../controllers/registro.php';
+    include '../views/registro.php';
     break;
   case '/login':
-    include '../controllers/login.php';
+    include '../views/login.php';
     break;
   case '/logout':
-    include '../controllers/cerrar_sesion.php';
+    include '../views/cerrar_sesion.php';
     break;
   default:
     // Página de error 404 si la ruta no coincide
