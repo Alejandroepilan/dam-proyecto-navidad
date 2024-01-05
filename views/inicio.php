@@ -14,6 +14,8 @@ if (!isset($_SESSION['user_id'])) {
 
 $conexion = conectarDB();
 
+// aa
+
 $resultado = $conexion->query("SELECT ong_type_id, name FROM ong_type");
 
 // Verificar si hay resultados
