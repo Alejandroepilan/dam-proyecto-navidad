@@ -1,2 +1,3 @@
 <?php
-include 'router.php';
+  require 'router.php';
+?>
