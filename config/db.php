@@ -1,7 +1,7 @@
 <?php
 define('DB_HOST', 'epila.dev');
 define('DB_USER', 'alejandro');
-define('DB_PASSWORD', '2yXTHf-b-ErBghZkP-2c');
+define('DB_PASSWORD', 'XXXXXXXXXXXXXXXXX');
 define('DB_NAME', 'dam_proyecto_navidad');
 
 function conectarDB()
